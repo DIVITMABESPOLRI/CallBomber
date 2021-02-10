@@ -14,7 +14,7 @@ echo '
 echo
 read -p "masukan nomornya : " pil
 if [[ $pil == 1 ]]; then
-read -p "masukan no target : " nomor
+read -p "masukan no target [Ex 8xxxxxxxxx : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 else
